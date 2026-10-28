@@ -3,13 +3,13 @@ package com.zhangshaoguo.service.impl;
 import com.zhangshaoguo.dao.UserDao;
 import com.zhangshaoguo.dao.impl.UserDaoImpl;
 import com.zhangshaoguo.pojo.User;
-import com.zhangshaoguo.service.UserSrevice;
+import com.zhangshaoguo.service.UserService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class UserSreviceImpl implements UserSrevice {
+public class UserServiceImpl implements UserService {
     // lines是UserDaoImpl实现类里面的，接口是UserDao，现在没有这个类，就要调用把他传进来（设为成员变量）
     private  UserDao userDao = new UserDaoImpl();
     @Override

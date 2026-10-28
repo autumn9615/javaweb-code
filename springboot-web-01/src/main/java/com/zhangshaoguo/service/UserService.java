@@ -4,7 +4,7 @@ import com.zhangshaoguo.pojo.User;
 
 import java.util.List;
 
-public interface UserSrevice {
+public interface UserService {
     /*
      * 查询所有用户信息的
      * */
